@@ -1,0 +1,48 @@
+.write{
+    padding: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.writeformgroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.titleinput{
+    border: none;
+    font-size: 35px;
+    width: 70vw;
+    padding: 20px;
+}
+.titleinput:focus{
+    outline: none;
+}
+.textinput{
+    font-size: 25px;
+    height: 100vw;
+}
+.formicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.submitform{
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    padding: 10px;
+    background-color: rgb(130, 228, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:wght@700&family=Silkscreen&display=swap');
+
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+}
+
+.postimg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+.postinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postcateg{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(174, 155, 26);
+    cursor: pointer;
+}
+.postcateg>span{
+    margin-right: 7px;
+}
+.posttitle{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.postdate{
+    font-size: 9px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.postdesc{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 20px;
+    margin-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+}
